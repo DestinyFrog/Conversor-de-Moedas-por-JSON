@@ -28,6 +28,10 @@ criar um aplicativo que converte montantes de uma moeda para outra.
 	<img height="40" alt="Python logo" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/PHP-Dark.svg"/>
 </a>
 
+<a href="https://github.com/DestinyFrog/Conversor-de-Moedas-por-JSON/tree/main/ruby/index.rb">
+	<img height="40" alt="Python logo" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Ruby.svg"/>
+</a>
+
 </div>
 
 ---
