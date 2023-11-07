@@ -12,16 +12,20 @@ criar um aplicativo que converte montantes de uma moeda para outra.
 
 <div style="width:100vw; display:grid; grid-template-columns: repeat(5,1fr);">
 
-<a href="https://github.com/DestinyFrog/Conversor-de-Moedas-por-JSON/tree/main/go">
+<a href="https://github.com/DestinyFrog/Conversor-de-Moedas-por-JSON/tree/main/go/index.go">
 	<img height="40" alt="GoLang logo" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/GoLang.svg"/>
 </a>
 
-<a href="https://github.com/DestinyFrog/Conversor-de-Moedas-por-JSON/tree/main/python">
+<a href="https://github.com/DestinyFrog/Conversor-de-Moedas-por-JSON/tree/main/python/index.py">
 	<img height="40" alt="Python logo" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Python-Dark.svg"/>
 </a>
 
-<a href="https://github.com/DestinyFrog/Conversor-de-Moedas-por-JSON/tree/main/node">
+<a href="https://github.com/DestinyFrog/Conversor-de-Moedas-por-JSON/tree/main/node/index.js">
 	<img height="40" alt="Python logo" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/JavaScript.svg"/>
+</a>
+
+<a href="https://github.com/DestinyFrog/Conversor-de-Moedas-por-JSON/tree/main/php/index.php">
+	<img height="40" alt="Python logo" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/PHP-Dark.svg"/>
 </a>
 
 </div>
