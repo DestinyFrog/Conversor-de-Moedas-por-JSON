@@ -1,0 +1,47 @@
+[
+        {
+                "nome": "Real Brasileiro",
+                "simbolo": "R$",
+                "valor": 4.99,
+                "pais": {
+                        "nome": "Brasil",
+                        "emoji": "🇧🇷"
+                }
+        },
+        {
+                "nome": "Dólar Americano",
+                "simbolo": "$",
+                "valor": 1.0,
+                "pais": {
+                        "nome": "EUA",
+                        "emoji": "🇺🇸"
+                }
+        },
+        {
+                "nome": "Euro",
+                "simbolo": "€",
+                "valor": 0.94,
+                "pais": {
+                        "nome": "União Europeia",
+                        "emoji": "🇪🇺"
+                }
+        },
+        {
+                "nome": "Yen",
+                "simbolo": "¥",
+                "valor": 150.38,
+                "pais": {
+                        "nome": "Japão",
+                        "emoji": "🇯🇵"
+                }
+        },
+        {
+                "nome": "Won",
+                "simbolo": "₩",
+                "valor": 1354.43,
+                "pais": {
+                        "nome": "Coreia do Sul",
+                        "emoji": "🇰🇷"
+                }
+        }
+]
