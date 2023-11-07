@@ -23,3 +23,21 @@ Passos Fundamentais a serem seguidos:
 - Converte o montante para o montante em Dolar Americano
 - Converte o montante em Dolar Americano para o montante na Moeda Final
 - Mostrar Resultado Final
+
+Linguagens que foram utilizadas:
+
+<div style="width:100vw; display:grid; grid-template-columns: repeat(5,1fr);">
+
+<a href="https://github.com/DestinyFrog/Conversor-de-Moedas-por-JSON/tree/main/go">
+	<img height="40" alt="GoLang logo" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/GoLang.svg"/>
+</a>
+
+<a href="https://github.com/DestinyFrog/Conversor-de-Moedas-por-JSON/tree/main/python">
+	<img height="40" alt="Python logo" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Python-Dark.svg"/>
+</a>
+
+<a href="https://github.com/DestinyFrog/Conversor-de-Moedas-por-JSON/tree/main/node">
+	<img height="40" alt="Python logo" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/JavaScript.svg"/>
+</a>
+
+</div>
