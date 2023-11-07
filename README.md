@@ -21,15 +21,19 @@ criar um aplicativo que converte montantes de uma moeda para outra.
 </a>
 
 <a href="https://github.com/DestinyFrog/Conversor-de-Moedas-por-JSON/tree/main/node/index.js">
-	<img height="40" alt="Python logo" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/JavaScript.svg"/>
+	<img height="40" alt="JavaScript logo" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/JavaScript.svg"/>
 </a>
 
 <a href="https://github.com/DestinyFrog/Conversor-de-Moedas-por-JSON/tree/main/php/index.php">
-	<img height="40" alt="Python logo" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/PHP-Dark.svg"/>
+	<img height="40" alt="php logo" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/PHP-Dark.svg"/>
 </a>
 
 <a href="https://github.com/DestinyFrog/Conversor-de-Moedas-por-JSON/tree/main/ruby/index.rb">
-	<img height="40" alt="Python logo" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Ruby.svg"/>
+	<img height="40" alt="Ruby logo" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Ruby.svg"/>
+</a>
+
+<a href="https://github.com/DestinyFrog/Conversor-de-Moedas-por-JSON/tree/main/csharp">
+	<img height="40" alt="CSharp logo" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/CS.svg"/>
 </a>
 
 </div>
