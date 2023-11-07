@@ -28,7 +28,7 @@ criar um aplicativo que converte montantes de uma moeda para outra.
 
 ---
 
-Passos Fundamentais a serem seguidos:
+### Passos Fundamentais a serem seguidos:
 - Ler Arquivo JSON
 - Deserializar JSON
 - Funcao para encontrar a moeda pelo nome ou simbolo
