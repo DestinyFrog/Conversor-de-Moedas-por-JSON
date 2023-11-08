@@ -9,24 +9,19 @@ import (
 	"strings"
 )
 
-type pais struct {
-	Nome	string	`json:"nome"`
-	Emoji	string	`json:"emoji"`
-}
-
 type Moeda struct {
 	Nome	string	`json:"nome"`
 	Simbolo	string	`json:"simbolo"`
 	Valor	float32	`json:"valor"`
-	Pais	*pais	`json:"pais"`
+	Pais	string	`json:"pais"`
 }
 
 // - Funcao para encontrar a moeda pelo nome ou simbolo
 func Encontrar(data []Moeda, entrada string) (*Moeda,error) {
-	entrada_tratada := strings.TrimRight(entrada, "\n")
+	entrada = strings.TrimRight(entrada, "\n")
 
 	for _,v := range data {
-		if v.Nome == entrada_tratada || v.Simbolo == entrada_tratada {
+		if v.Nome == entrada || v.Simbolo == entrada || v.Pais == entrada {
 			return &v, nil
 		}
 	}
@@ -48,8 +43,8 @@ func main() {
 	// - Printar todas as Moedas
 	fmt.Println("---")
 	for _,v := range data {
-		fmt.Printf("%s - %s (%s %s) = %f\n",
-			v.Simbolo, v.Nome, v.Pais.Nome, v.Pais.Emoji, v.Valor)
+		fmt.Printf("%s - %s (%s) = %f\n",
+			v.Simbolo, v.Nome, v.Pais, v.Valor)
 	}
 	fmt.Println("---")
 	fmt.Println()
