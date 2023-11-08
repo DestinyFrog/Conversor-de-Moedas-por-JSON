@@ -11,7 +11,7 @@ $data = json_decode( $text, true );
 // - Funcao para encontrar a moeda pelo nome ou simbolo
 function encontrar($lista, $entry) {
 	foreach ($lista as &$v) {
-		if( $v["nome"] == $entry || $v["simbolo"] == $entry ) {
+		if( $v["nome"] == $entry || $v["simbolo"] == $entry || $v["pais"] == entry ) {
 			return $v;
 		}
 	}
@@ -26,7 +26,7 @@ function encontrar($lista, $entry) {
 <?php
 // - Printar todas as Moedas
 foreach($data as &$v) {
-	echo $v["simbolo"]." - ".$v["nome"]." (".($v["pais"]["nome"])." ".($v["pais"]["emoji"])." = $ ".$v["valor"]."\n";
+	echo $v["simbolo"]." - ".$v["nome"]." (".$v["pais"].") = $ ".$v["valor"]."\n";
 }
 ?>
 ---
