@@ -20,7 +20,7 @@ namespace Procura {
 		// - Funcao para encontrar a moeda pelo nome ou simbolo
 		public Moeda.Moeda? Encontrar( string entry ) {
 			foreach( var i in Data ) {
-				if ( i.nome == entry || i.simbolo == entry ) {
+				if ( i.nome == entry || i.simbolo == entry || i.pais == entry ) {
 					return i;
 				}
 			}
