@@ -3,23 +3,17 @@ use serde::Deserialize;
 use serde_json::from_str;
 
 #[derive(Deserialize)]
-struct Pais {
-	nome: String,
-	emoji: String
-}
-
-#[derive(Deserialize)]
 struct Moeda {
 	nome: String,
 	simbolo: String,
 	valor: f32,
-	pais: Pais
+	pais: String
 }
 
 // - Funcao para encontrar a moeda pelo nome ou simbolo
 fn encontrar<'a>( list:&'a [Moeda], entry:&str ) -> Option<&'a Moeda> {
 	for i in list.iter() {
-		if i.nome == entry || i.simbolo == entry {
+		if i.nome == entry || i.simbolo == entry || i.pais == entry {
 			return Some(i);
 		}
 	}
@@ -38,7 +32,7 @@ fn main() {
 	// - Printar todas as Moedas
 	println!("---");
 	for i in data.iter() {
-		println!("{} - {} ({} {}) = $ {}",i.simbolo,i.nome,i.pais.nome,i.pais.emoji,i.valor);
+		println!("{} - {} ({}) = $ {}",i.simbolo,i.nome,i.pais,i.valor);
 	}
 	println!("---\n");
 
