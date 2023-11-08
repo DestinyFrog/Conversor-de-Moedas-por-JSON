@@ -12,8 +12,8 @@ const data = JSON.parse( text )
 function encontrar_moeda( entrada ) {
 	// Filtrar Moedas pelo nome ou simbolo
 	const moeda = data.filter(
-		({nome,simbolo}) =>
-			entrada==nome || entrada==simbolo )[0]
+		({nome,simbolo,pais}) =>
+			entrada==nome || entrada==simbolo || entrada==pais )[0]
 
 	// - Caso não encontre encerre o Programa
 	if ( moeda == undefined ) {
@@ -27,7 +27,7 @@ function encontrar_moeda( entrada ) {
 // - Printar todas as Moedas
 console.log("---")
 data.forEach( ({nome,simbolo,valor,pais}) =>
-	console.log(`${simbolo} - ${nome} (${pais.nome} ${pais.emoji}) = $ ${valor}`))
+	console.log(`${simbolo} - ${nome} (${pais}) = $ ${valor}`))
 console.log("---\n")
 
 // - Perguntar ao usuario a *Moeda Inicial*
