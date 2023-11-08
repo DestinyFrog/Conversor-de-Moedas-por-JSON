@@ -10,7 +10,7 @@ data = json.loads( text )
 # - Funcao para encontrar a moeda pelo nome ou simbolo
 def encontrar(lista, entry:str):
     for m in lista:
-        if m.get("nome") == entry or m.get("simbolo") == entry:
+        if m.get("nome") == entry or m.get("simbolo") == entry or m.get("pais") == entry:
             return m
 
     # 	- Caso não encontre encerre o Programa
@@ -20,7 +20,7 @@ def encontrar(lista, entry:str):
 # - Printar todas as Moedas
 print("---")
 for m in data:
-    print(f"{m.get('simbolo')} - {m.get('nome')} ({(m.get('pais').get('nome'))} {(m.get('pais').get('emoji'))}) = {m.get('valor')}")
+    print(f"{m.get('simbolo')} - {m.get('nome')} ({m.get('pais')}) = {m.get('valor')}")
 print("---\n")
 
 # - Perguntar ao usuario a *Moeda Inicial*
