@@ -11,7 +11,7 @@ data = JSON.parse text
 # - Funcao para encontrar a moeda pelo nome ou simbolo
 def encontrar( list, entry )
   for v in list
-    if v["nome"] == entry or v["simbolo"] == entry then
+    if v["nome"] == entry or v["simbolo"] == entry or v["pais"] == entry then
       return v
     end
   end
@@ -24,7 +24,7 @@ end
 # - Printar todas as Moedas
 puts "---"
 for v in data
-  puts "#{v["simbolo"]} - #{v["nome"]} (#{v["pais"]["nome"]} #{v["pais"]["emoji"]}) = $ #{v["valor"]}"
+  puts "#{v["simbolo"]} - #{v["nome"]} (#{v["pais"]}) = $ #{v["valor"]}"
 end
 puts "---\n"
 
