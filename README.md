@@ -36,6 +36,10 @@ criar um aplicativo que converte montantes de uma moeda para outra.
 	<img height="40" alt="CSharp logo" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/CS.svg"/>
 </a>
 
+<a href="https://github.com/DestinyFrog/Conversor-de-Moedas-por-JSON/tree/main/rust/src/main.rs">
+	<img height="40" alt="CSharp logo" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Rust.svg"/>
+</a>
+
 </div>
 
 ---
